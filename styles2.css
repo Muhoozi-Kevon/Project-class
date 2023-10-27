@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.magnify-heading {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.magnify-heading span {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.magnify-heading span:hover {
+    transform: scale(1.2);
+}
